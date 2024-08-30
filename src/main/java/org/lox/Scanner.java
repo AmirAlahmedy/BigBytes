@@ -1,11 +1,11 @@
-package org.example;
+package org.lox;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.example.TokenType.*;
+import static org.lox.TokenType.*;
 
 class Scanner {
     private static final Map<String, TokenType> keywords;
